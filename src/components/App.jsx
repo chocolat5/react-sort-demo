@@ -5,8 +5,8 @@ import List from './List';
 
 import '../scss/style.scss';
 
-const initialState = {
-  tasks: [
+const DATA = {
+  movies: [
     {
       id: 1,
       title: 'Dunkirk',
@@ -40,21 +40,18 @@ const initialState = {
   ]
 };
 
-const KEYS = Object.keys(initialState.tasks[0]);
+const KEYS = Object.keys(DATA.movies[0]);
 
 const App = () => {
-  const [tasks, setTasks] = useState(initialState.tasks);
-
-  //ソート条件
   const [sort, setSort] = useState({});
 
-  const filteredTask = useMemo(() => {
-    let tmpTasks = tasks;
+  const sortedMovies = useMemo(() => {
+    let _sortedMovies = DATA.movies;
     if (sort.key) {
-      tmpTasks = tmpTasks.sort((a, b) => {
+      _sortedMovies = _sortedMovies.sort((a, b) => {
         a = a[sort.key];
         b = b[sort.key];
-        
+
         if(a === b) {
           return 0;
         }
@@ -66,15 +63,15 @@ const App = () => {
         }
       });
     }
-    return tmpTasks;
-  }, [sort, tasks]);
+    return _sortedMovies;
+  }, [sort]);
 
-  const handleSort = column => {
-    if (sort.key === column) {
+  const handleSort = key => {
+    if (sort.key === key) {
       setSort({ ...sort, order: -sort.order });
     } else {
       setSort({
-        key: column,
+        key: key,
         order: 1
       })
     }
@@ -97,12 +94,12 @@ const App = () => {
           ))
         }
       </div>
-      <ul className="task_list">
+      <ul className="movie_list">
         {
-          filteredTask.map((task, index) => (
+          sortedMovies.map((movie, index) => (
             <List
               key={index}
-              task={task} />
+              movie={movie} />
           ))
         }
       </ul>

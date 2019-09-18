@@ -301,27 +301,27 @@ img {
           -ms-transform: rotate(135deg);
               transform: rotate(135deg); }
 
-.task_list {
+.movie_list {
   background: #fff;
   border-radius: 6px; }
-  .task_list li {
+  .movie_list li {
     padding: 1em;
     border-top: 1px solid #eee; }
-    .task_list li:first-of-type {
+    .movie_list li:first-of-type {
       border-top: 0; }
-    .task_list li p {
+    .movie_list li p {
       display: inline-block; }
-    .task_list li span {
+    .movie_list li span {
       color: #ccc;
       font-size: .9em; }
-    .task_list li .list_id {
+    .movie_list li .list_id {
       margin-right: 16px;
       border-radius: 4px; }
-    .task_list li .list_cat {
+    .movie_list li .list_cat {
       margin-left: auto;
       border-radius: 4px; }
     @media screen and (min-width: 600px) {
-      .task_list li {
+      .movie_list li {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; } }
