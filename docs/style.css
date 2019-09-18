@@ -262,7 +262,7 @@ img {
     border: none;
     position: relative;
     display: inline-block;
-    margin: 0 8px 0 0;
+    margin: 0 8px 8px 0;
     padding: .4em 2em .4em 1.2em;
     background: none;
     border: 1px solid #ccc;
@@ -272,8 +272,6 @@ img {
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease; }
-    .sort_buttons button:hover {
-      background: #eee; }
     .sort_buttons button:after {
       position: absolute;
       top: calc(50% - 5px);
@@ -307,9 +305,6 @@ img {
   background: #fff;
   border-radius: 6px; }
   .task_list li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     padding: 1em;
     border-top: 1px solid #eee; }
     .task_list li:first-of-type {
@@ -325,4 +320,9 @@ img {
     .task_list li .list_cat {
       margin-left: auto;
       border-radius: 4px; }
+    @media screen and (min-width: 600px) {
+      .task_list li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; } }
 
