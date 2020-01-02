@@ -1,9 +1,9 @@
 # React Sort Demo
-Sort list items.
+Sort list items.  
 This was made for my blog post.
 
 [View Demo](https://chocolat5.github.io/react-sort-demo/)  
-[View Post](https://chocolat5.com/tips/how-to-sort-items-with-react/)
+[View Blog Post](https://chocolat5.com/tips/how-to-sort-items-with-react/)
 
 ## Getting Started
 
