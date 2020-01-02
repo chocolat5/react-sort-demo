@@ -1,8 +1,36 @@
 # React Sort Demo
-This is just sample React sort something built with React, Webpack.  
-I created this for my learning.  
+Sort list items.
+This was made for my blog post.
 
-[View Demo](https://chocolat5.github.io/react-sort-demo/)
+[View Demo](https://chocolat5.github.io/react-sort-demo/)  
+[View Post](https://chocolat5.com/tips/how-to-sort-items-with-react/)
+
+## Getting Started
+
+1. Clone this repo
+
+```
+git clone https://github.com/chocolat5/react-sort-demo.git <PROJECT_NAME>
+```
+
+2. Move to the appropriate directory
+
+```
+cd <PROJECT_NAME>
+```
+
+3. Install npm package
+```
+npm install --save-dev
+```
+
+4. Run the project
+```
+npm run start
+```
+
+5. See http://localhost:8000/
+
 
 ## References
 
