@@ -34,8 +34,7 @@ npm run start
 
 ## Built With
 
-- (React)[https://github.com/facebook/react]
-- 
+- [React](https://github.com/facebook/react)
 
 ## References
 
