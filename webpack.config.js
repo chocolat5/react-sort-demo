@@ -13,7 +13,7 @@ module.exports = env => {
       index: './index.js',
     },
     output: {
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'docs'),
       filename: 'app.bundle.js'
     },
     devServer: {

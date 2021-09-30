@@ -3,50 +3,19 @@ import React, { useState, useMemo } from 'react';
 import Button from './Button';
 import List from './List';
 
+import data from '../data';
+
 import '../scss/style.scss';
 
-const DATA = {
-  movies: [
-    {
-      id: 1,
-      title: 'Dunkirk',
-      category: 'Action',
-      year: '2017'
-    },
-    {
-      id: 2,
-      title: 'Interstellar',
-      category: 'Sci-Fi',
-      year: '2014'
-    },
-    {
-      id: 3,
-      title: 'Inception',
-      category: 'Sci-Fi',
-      year: '2010'
-    },
-    {
-      id: 4,
-      title: 'The Dark Knight',
-      category: 'Action',
-      year: '2008'
-    },
-    {
-      id: 5,
-      title: 'Memento',
-      category: 'Mystery',
-      year: '2000'
-    }
-  ]
-};
 
-const KEYS = Object.keys(DATA.movies[0]);
+console.log(data);
+const KEYS = Object.keys(data.movies[0]);
 
 const App = () => {
   const [sort, setSort] = useState({});
 
   const sortedMovies = useMemo(() => {
-    let _sortedMovies = DATA.movies;
+    let _sortedMovies = data.movies;
     if (sort.key) {
       _sortedMovies = _sortedMovies.sort((a, b) => {
         a = a[sort.key];
