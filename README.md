@@ -1,4 +1,5 @@
 # React Sort Demo
+
 Sort list items.  
 This was made for my blog post.
 
@@ -20,27 +21,45 @@ cd <PROJECT_NAME>
 ```
 
 3. Install npm package
+
 ```
 npm install --save-dev
 ```
 
-4. Run the project
+4. Run the project and see http://localhost:5173/
+
 ```
-npm run start
+npm run dev
 ```
 
-5. See http://localhost:8000/
+## Prerequisites
 
+- Node.js version 18+. 20+
 
-## Built With
+## Tech Stack
 
-- [React](https://github.com/facebook/react)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
 ## References
 
-[React Hooks でリストの絞り込み検索と並び替え機能のサンプル](https://www.webopixel.net/javascript/1533.html)  
+[React Hooks でリストの絞り込み検索と並び替え機能のサンプル](https://www.webopixel.net/javascript/1533.html)
 
+## Support
+
+The simplest way to show your support is by giving the project a star at GitHub 🌟  
+And I'm always appreciate to the bug report and your feedbacks.  
+Also you can support me as a [Sponsor](https://github.com/sponsors/chocolat5) 🫶
+
+Thank you for your support 💛
+
+## Author
+
+[chocolat](https://github.com/chocolat5)
 
 ## License
 
-MIT
+[The MIT License](https://opensource.org/licenses/MIT).
