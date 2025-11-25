@@ -49,12 +49,10 @@ npm run dev
 [React Hooks でリストの絞り込み検索と並び替え機能のサンプル](https://www.webopixel.net/javascript/1533.html)
 
 ## Support
+I'm always appreciate to the bug report or your feedbacks.  
+If you want to support me, please see [here](https://ko-fi.com/chocolat5).
 
-The simplest way to show your support is by giving the project a star at GitHub 🌟  
-And I'm always appreciate to the bug report and your feedbacks.  
-Also you can support me as a [Sponsor](https://github.com/sponsors/chocolat5) 🫶
-
-Thank you for your support 💛
+Thank you for your support 💚
 
 ## Author
 
